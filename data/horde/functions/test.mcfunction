@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[HORDE] START TEST FUNCIONANDO","color":"green"}]

@@ -1,0 +1,2 @@
+execute as @a[tag=horde_target,limit=1] at @s if predicate horde:protected_zone run function horde:spawn_wave_protected
+execute as @a[tag=horde_target,limit=1] at @s unless predicate horde:protected_zone run function horde:spawn_wave_normal

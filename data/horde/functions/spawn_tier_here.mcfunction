@@ -1,0 +1,2 @@
+summon minecraft:marker ~ ~32 ~ {Tags:["horde_ground_check","horde_spawn_tier"]}
+execute as @e[type=minecraft:marker,tag=horde_ground_check,tag=horde_spawn_tier,limit=1,sort=nearest] at @s run function horde:find_ground

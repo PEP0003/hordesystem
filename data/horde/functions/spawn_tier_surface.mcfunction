@@ -1,0 +1,1 @@
+execute if predicate horde:outside_protected_zone if block ~ ~ ~ air if block ~ ~1 ~ air run function horde:spawn_tier_choice
